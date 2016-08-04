@@ -1,13 +1,23 @@
+body {
+  background-color: black;
+  color: lightgreen;
+  background-image: url("../img/nebula.jpg");
+  background-size: cover;
+  background-repeat:  no-repeat;
+  background-position: center;
+}
+
+h1 {
+  text-shadow: 0 0 5px white;
+  color: black;
+}
+
 h3+p {
   padding: 1rem;
 }
 
-h3, .saturn p {
+h3 {
   text-align: center;
-}
-
-.pluto p {
-  text-align: right;
 }
 
 .row {
@@ -17,6 +27,7 @@ h3, .saturn p {
 .jumbotron {
   text-align: center;
   padding: 5rem 0 1rem 0;
+  background-color: #888;
 }
 
 img {
@@ -29,9 +40,26 @@ img {
   width: 50%;
 }
 
+.deluxe {
+  font-family: impact;
+}
+
+
+
+
+
+
 @media only screen and (min-width: 992px) {
   img,
   .saturn img {
     width: 80%;
+  }
+
+  .saturn p {
+    text-align: center;
+  }
+
+  .pluto p {
+    text-align: right;
   }
 }
