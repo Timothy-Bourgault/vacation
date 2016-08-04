@@ -1,5 +1,37 @@
-/*Type Selectors*/
+h3+p {
+  padding: 1rem;
+}
 
-h1 {
-  color: tomato;
+h3, .saturn p {
+  text-align: center;
+}
+
+.pluto p {
+  text-align: right;
+}
+
+.row {
+  margin: 25px;
+}
+
+.jumbotron {
+  text-align: center;
+  padding: 5rem 0 1rem 0;
+}
+
+img {
+  display: block;
+  margin: 0 auto;
+  width: 25%;
+}
+
+.saturn img {
+  width: 50%;
+}
+
+@media only screen and (min-width: 992px) {
+  img,
+  .saturn img {
+    width: 80%;
+  }
 }
