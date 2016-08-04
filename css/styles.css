@@ -1,14 +1,12 @@
 body {
-  background-color: black;
-  color: lightgreen;
   background-image: url("../img/nebula.jpg");
   background-size: cover;
   background-repeat:  no-repeat;
   background-position: center;
 }
 
-h1 {
-  text-shadow: 0 0 5px white;
+.jumbotron h1 {
+  text-shadow: 0 0 5px dodgerblue;
   color: black;
 }
 
@@ -20,6 +18,12 @@ h3 {
   text-align: center;
 }
 
+h3,
+p {
+    color: greenyellow;
+    text-shadow: 0 0 3px black;
+}
+
 .row {
   margin: 25px;
 }
@@ -27,7 +31,13 @@ h3 {
 .jumbotron {
   text-align: center;
   padding: 5rem 0 1rem 0;
-  background-color: #888;
+  background-color: black;
+  border-bottom: solid dodgerblue 1px;
+}
+
+.jumbotron p.lead {
+  font-weight: bold;
+  color: dodgerblue;
 }
 
 img {
